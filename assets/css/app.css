@@ -676,10 +676,6 @@ video {
   gap: 1rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
 .overflow-auto {
   overflow: auto;
 }
@@ -806,11 +802,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -895,8 +886,8 @@ video {
     width: 40%;
   }
 
-  .lg\:gap-12 {
-    gap: 3rem;
+  .lg\:gap-6 {
+    gap: 1.5rem;
   }
 
   .lg\:p-12 {
@@ -915,6 +906,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:gap-12 {
+    gap: 3rem;
+  }
+
   .xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
